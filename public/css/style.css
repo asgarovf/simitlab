@@ -260,14 +260,6 @@ body {
   transform: rotate(180deg);
 }
 
-.custom-shape-divider-bottom-1604654728 svg {
-  position: relative;
-  display: block;
-  width: calc(232% + 1.3px);
-  height: 96px;
-  transform: rotateY(180deg) translateY(-15%);
-}
-
 .custom-shape-divider-bottom-1604654728 .shape-fill {
   fill: #572973;
 }
@@ -370,6 +362,13 @@ body {
   .face-image {
     display: none;
   }
+  .custom-shape-divider-bottom-1604654728 svg {
+    position: relative;
+    display: block;
+    width: calc(232% + 1.3px);
+    height: 96px;
+    transform: rotateY(180deg) translateY(-60%);
+  }
 }
 @media (min-width: 900px) {
   .no-d-lg {
@@ -421,6 +420,13 @@ body {
   }
   .face-image {
     border-radius: 40px;
+  }
+  .custom-shape-divider-bottom-1604654728 svg {
+    position: relative;
+    display: block;
+    width: calc(232% + 1.3px);
+    height: 96px;
+    transform: rotateY(180deg) translateY(-15%);
   }
 }
 
