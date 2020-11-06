@@ -181,10 +181,12 @@ $("#past").click(() => {
 
 $("#join").click(() => {
   $("#collapse-join").addClass("visible").removeClass("not-visible");
+  $("#body").removeClass("overflow-auto").addClass("overflow-hidden");
 });
 
 $("#close").click(() => {
   $("#collapse-join").removeClass("visible").addClass("not-visible");
+  $("#body").removeClass("overflow-hidden").addClass("overflow-auto");
 });
 
 $(document).ready(function () {
