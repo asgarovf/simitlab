@@ -426,7 +426,7 @@ body {
     right: 30px;
   }
   .application-header {
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
     color: white;
   }
@@ -440,8 +440,14 @@ body {
     font-weight: bold;
     font-size:14px;
   }
+  .application-text{
+    font-size:13px;
+  }
 }
 @media (min-width: 900px) {
+  .application-text{
+    font-size:16px;
+  }
   .project-alt{
     font-weight: bold;
     font-size:18px;
