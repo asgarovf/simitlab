@@ -320,6 +320,15 @@ p{
   .body-margin {
     margin-top: 150px;x;
   }
+  .nav-add{
+    color: white;
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 400;
+    font-size: 18px;
+  }
+  .nav-add:hover{
+    text-decoration: none !important;
+  }
   .project{
     font-size:16px;
     cursor: pointer;
