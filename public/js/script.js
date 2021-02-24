@@ -200,3 +200,5 @@ $(document).ready(function () {
     }
   });
 });
+
+window.dispatchEvent(new Event("resize", true, true));
