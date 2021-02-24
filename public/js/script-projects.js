@@ -193,7 +193,7 @@ $(document).ready(function () {
   $(this).scrollTop(0);
   $(document).scroll(function () {
     scroll_pos = $(this).scrollTop();
-    if (scroll_pos > 50) {
+    if (scroll_pos > 80) {
       $("#navbar").addClass("navbar-scroll");
     } else {
       $("#navbar").removeClass("navbar-scroll");
