@@ -303,6 +303,9 @@ p{
     transform: rotate(180deg);
   }
 
+  .box-app-link:hover{
+    text-decoration: none;
+  }
   .close-button {
     position: absolute;
     top: 30px;
