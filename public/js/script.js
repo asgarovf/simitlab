@@ -190,8 +190,6 @@ $("#close").click(() => {
 });
 
 $(document).ready(function () {
-  window.dispatchEvent(new Event("resize", true, true));
-
   $(this).scrollTop(0);
   $(document).scroll(function () {
     scroll_pos = $(this).scrollTop();
