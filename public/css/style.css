@@ -43,7 +43,16 @@ p{
   color: white;
   font-family: 'Poppins', sans-serif !important;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 14px;
+}
+.nav-link-2 {
+  color: white;
+  font-family: 'Poppins', sans-serif !important;
+  font-weight: 400;
+  font-size: 14px;
+}
+.nav-link-2:hover{
+  text-decoration: none;
 }
 .nav-link.active{
   border-bottom: 2px solid white;
@@ -52,7 +61,7 @@ p{
 .nav-link:hover {
   color: white;
   border-bottom: 2px solid white;
-  padding-bottom: 4px;
+  padding-bottom:4px;
 }
 
 .nav-item {
@@ -247,28 +256,26 @@ p{
     font-size: 30px;
   }
   .join-button {
-    border: 1px solid white;
+    border: 2px solid white;
     background: none;
     color: white;
-    padding-top: 12px;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-bottom: 12px;
+    padding-top: 4px;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    padding-bottom: 4px;
     font-family: 'Poppins', sans-serif !important;
-    font-weight: 400;
     transition: all ease 0.4s;
-    font-size: 20px;
-    text-decoration: none;
-    z-index: 3006;
-    border-radius: 10px;
+    border-radius: 30px;
   }
   .join-button:hover {
+    border: 2px solid white;
     background: white;
     color: #052154;
-    border: #052154;
+    padding-top: 4px;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    padding-bottom: 4px;
     transition: all ease 0.4s;
-    text-decoration: none;
-    z-index: 3006;
   }
   .margin-left-small {
     margin-left: 18px;
@@ -380,7 +387,9 @@ p{
     box-shadow: 3px 3px 25px 2px rgba(158, 153, 153, 0.25);
     border-radius: 15px;
     display: flex;
-    flex-direction: column;
+    flex-direction: column;;
+    background-position: center;
+    background-size:cover;
   }
   .box-app{
     background-color: #fff;
@@ -577,6 +586,42 @@ p{
     margin-top: 35vh;
     font-size: 48px;
   }
+}
+
+
+/* About Prof */
+
+.about-prof{
+  background-color: #efefef;
+  padding-bottom: 30px;
+  padding-top:30px;
+}
+.about-prof-text{
+  font-weight: 500;
+  color:black;
+  font-size: 120%;
+}
+@media(min-width:0px){
+  .about-prof-img{
+    background-image: url("../img/people/ekenel.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top:200px;
+    padding-bottom:200px;
+  }
+
+}
+@media(min-width:992px){
+  .about-prof-img{
+    background-image: url("../img/people/ekenel.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top:150px;
+    padding-bottom:150px;
+  }
+
 }
 
 
