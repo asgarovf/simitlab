@@ -110,6 +110,16 @@ p{
   opacity: 1;
 }
 
+.container-home-2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../img/background2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: black;
+  opacity: 1;
+}
+
 .collapse-navbar {
   position: absolute;
   top: 0;
@@ -132,7 +142,7 @@ p{
 
 .navbar-small-link {
   color: white;
-  font-size: 25px;
+  font-size: 18px;
 }
 
 .not-visible {
@@ -469,7 +479,7 @@ p{
     margin-left: 100px;
   }
   .main-header {
-    margin-top: 30vh;
+    margin-top: 35vh;
     font-size: 30px;
   }
   .margin-left-small {
@@ -547,7 +557,7 @@ p{
     margin-top: 400px;
   }
   .main-header {
-    margin-top: 30vh;
+    margin-top: 35vh;
     font-size: 35px;
   }
 }
@@ -564,7 +574,7 @@ p{
     margin-top: 400px;
   }
   .main-header {
-    margin-top: 30vh;
+    margin-top: 35vh;
     font-size: 48px;
   }
 }
