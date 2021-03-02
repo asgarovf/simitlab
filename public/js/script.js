@@ -201,14 +201,18 @@ $(document).ready(function () {
   });
 });
 
-
-$('.owl-carousel').owlCarousel({
-  loop:true,
-  margin:0,
-  nav:false,
+$(".owl-carousel").owlCarousel({
+  loop: true,
+  margin: 0,
+  nav: false,
   items: 1,
-  autoplay:true,
-  autoplayTimeout:4500,
-  autoplayHoverPause:false,
-  dots: false
-})
+  autoplay: true,
+  autoplayTimeout: 4500,
+  autoplayHoverPause: false,
+  dots: false,
+});
+
+setTimeout(() => {
+  $(".loader-container").fadeOut(500);
+  $("body").removeClass("body-overflow");
+}, 2000);
